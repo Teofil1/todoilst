@@ -13,12 +13,10 @@ services:
         ipv4_address: 10.0.10.3
 
   todolist-container:
-    image: todolist-container
+    container_name: todolist-container
+    image: teofil1/todoilst
     ports:
       - 8080:8080
-    build:
-      context: ./
-      dockerfile: Dockerfile
     restart: always
     depends_on:
       - Full2020-86789
