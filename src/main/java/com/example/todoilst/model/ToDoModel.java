@@ -12,6 +12,7 @@ public class ToDoModel {
     private String title;
     private LocalDate date;
     private String tag;
+    private String test;
 
     public Long getId() {
         return id;
@@ -37,11 +38,21 @@ public class ToDoModel {
         this.date = date;
     }
 
+
+
     public String getTag() {
         return tag;
     }
 
     public void setTag(String tag) {
         this.tag = tag;
+    }
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
     }
 }
