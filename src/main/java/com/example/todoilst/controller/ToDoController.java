@@ -45,7 +45,6 @@ public class ToDoController {
         toDoModelFromDb.setTitle(toDoModel.getTitle());
         toDoModelFromDb.setDate(toDoModel.getDate());
         toDoModelFromDb.setTag(toDoModel.getTag());
-        toDoModelFromDb.setTest(toDoModel.getTest());
 
         return toDoDao.save(toDoModelFromDb);
     }

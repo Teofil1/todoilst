@@ -26,7 +26,7 @@ services:
 
 networks:
   Bridge-Zadanie-1:
-      driver: bridge
+     driver: bridge
       ipam:
           config:
               - subnet: 10.0.10.0/24
